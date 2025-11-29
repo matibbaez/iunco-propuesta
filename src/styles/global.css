@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-serif: "Playfair Display", serif;
+
+  /* PALETA IUNCO (Royal Purple & Clean White) */
+  --color-brand-dark: #2e1065; /* Violeta muy oscuro (Casi negro, pero con tinta) */
+  --color-brand-primary: #5b21b6; /* Violeta Real */
+  --color-brand-accent: #7c3aed; /* Violeta Vibrante para botones */
+  
+  --color-gold-500: #eab308; /* Dorado para las estrellas */
+}

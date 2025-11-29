@@ -1,0 +1,230 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Stats from '../components/Stats.astro';
+import FAQItem from '../components/FAQItem.astro';
+---
+
+<Layout title="Iunco Jurídico | Dra. Iunco">
+    
+    <Navbar />
+
+    <header id="inicio" class="relative pt-40 lg:pt-52 pb-24 bg-white overflow-hidden">
+        <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-violet-600/10 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/3 pointer-events-none"></div>
+
+        <div class="container mx-auto px-6 grid md:grid-cols-2 gap-16 items-center relative z-10">
+            
+            <div class="space-y-8 animate-fade-in-up">
+                <div class="inline-flex items-center gap-2 px-4 py-2 bg-violet-50 rounded-full border border-violet-100 shadow-sm">
+                    <span class="w-2 h-2 bg-violet-600 rounded-full animate-pulse"></span>
+                    <span class="text-xs font-bold text-violet-900 tracking-widest uppercase">Defensa Integral 360°</span>
+                </div>
+
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-serif font-black text-slate-900 leading-[1.1]">
+                    Justicia clara,<br>
+                    <span class="text-transparent bg-clip-text bg-linear-to-r from-violet-600 to-fuchsia-600">
+                        resultados reales.
+                    </span>
+                </h1>
+                
+                <p class="text-slate-600 text-lg leading-relaxed max-w-lg font-light">
+                    Liderado por la Dra. Iunco. Protegemos sus derechos laborales, civiles y previsionales con la misma cercanía que ve en nuestras redes, pero con estrategia de élite.
+                </p>
+
+                <div class="flex flex-wrap gap-4 pt-4">
+                    <a href="https://wa.me/54911XXXXXXXX" class="bg-violet-900 text-white px-10 py-4 rounded-full font-serif italic text-xl hover:bg-violet-800 transition-all shadow-xl hover:shadow-violet-900/30 hover:-translate-y-1 flex items-center gap-3 group">                        
+                        <span>Consulta por WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="relative h-[550px] w-full">
+                <div class="absolute inset-0 bg-linear-to-br from-violet-600 to-fuchsia-600 rounded-4xl rotate-3 opacity-20 blur-sm transform scale-95"></div>
+                
+                <div class="relative h-full w-full rounded-4xl overflow-hidden shadow-2xl border-4 border-white bg-white">
+                     <img 
+                        src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1500&auto=format&fit=crop" 
+                        alt="Dra. Iunco" 
+                        class="w-full h-full object-cover object-top"
+                    />
+                    <div class="absolute bottom-8 right-8 bg-white/90 backdrop-blur-md p-4 rounded-2xl shadow-lg border border-white/50 max-w-[200px] animate-bounce-slow">
+                        <div class="flex items-center gap-3 mb-2">
+                            <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center text-green-600 font-bold">✓</div>
+                            <span class="text-xs font-bold text-slate-500 uppercase">Estado</span>
+                        </div>
+                        <p class="text-violet-900 font-bold text-sm leading-tight">
+                            "Trámite de Jubilación aprobado."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <Stats />
+
+    <section id="areas" class="py-24 bg-slate-50 relative">
+        <div class="absolute top-0 right-0 w-1/3 h-full bg-linear-to-l from-violet-100/50 to-transparent pointer-events-none"></div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="text-center mb-20">
+                <span class="text-violet-600 font-bold tracking-widest text-xs uppercase mb-3 block">Cobertura Integral</span>
+                <h2 class="text-4xl md:text-5xl font-serif text-slate-900 font-bold mb-6">
+                    Soluciones Legales <span class="italic text-violet-600">Estratégicas</span>
+                </h2>
+                <p class="text-slate-500 text-lg max-w-2xl mx-auto">
+                    Un enfoque multidisciplinario para resolver conflictos en todas las etapas de la vida.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-500 p-8 border-t-4 border-violet-600 group hover:-translate-y-2">
+                    <div class="w-14 h-14 bg-violet-50 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-violet-600 group-hover:text-white transition-colors">💼</div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-2">Laboral y Accidentes</h3>
+                    <ul class="space-y-2 text-slate-600 mb-8 text-sm">
+                        <li class="flex gap-2"><span class="text-violet-500">✓</span> Despidos sin causa</li>
+                        <li class="flex gap-2"><span class="text-violet-500">✓</span> Accidentes (ART)</li>
+                        <li class="flex gap-2"><span class="text-violet-500">✓</span> Trabajo en Negro</li>
+                    </ul>
+                    <a href="https://wa.me/54911XXXXXXXX" class="text-violet-700 font-bold text-xs uppercase tracking-widest border-b border-violet-200 pb-1">Iniciar Reclamo &rarr;</a>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-500 p-8 border-t-4 border-fuchsia-500 group hover:-translate-y-2">
+                    <div class="w-14 h-14 bg-fuchsia-50 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-fuchsia-500 group-hover:text-white transition-colors">👵</div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-2">Jubilaciones</h3>
+                    <ul class="space-y-2 text-slate-600 mb-8 text-sm">
+                        <li class="flex gap-2"><span class="text-fuchsia-500">✓</span> Trámite Jubilatorio</li>
+                        <li class="flex gap-2"><span class="text-fuchsia-500">✓</span> Pensiones</li>
+                        <li class="flex gap-2"><span class="text-fuchsia-500">✓</span> Reajuste de Haberes</li>
+                    </ul>
+                    <a href="https://wa.me/54911XXXXXXXX" class="text-fuchsia-600 font-bold text-xs uppercase tracking-widest border-b border-fuchsia-200 pb-1">Consultar Trámite &rarr;</a>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-500 p-8 border-t-4 border-indigo-500 group hover:-translate-y-2">
+                    <div class="w-14 h-14 bg-indigo-50 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-indigo-500 group-hover:text-white transition-colors">⚖️</div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-2">Civil y Familia</h3>
+                    <ul class="space-y-2 text-slate-600 mb-8 text-sm">
+                        <li class="flex gap-2"><span class="text-indigo-500">✓</span> Sucesiones</li>
+                        <li class="flex gap-2"><span class="text-indigo-500">✓</span> Divorcios</li>
+                        <li class="flex gap-2"><span class="text-indigo-500">✓</span> Amparos de Salud</li>
+                    </ul>
+                    <a href="https://wa.me/54911XXXXXXXX" class="text-indigo-600 font-bold text-xs uppercase tracking-widest border-b border-indigo-200 pb-1">Asesorarme &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-linear-to-br from-violet-900 via-purple-900 to-fuchsia-900 text-white relative overflow-hidden">
+        
+        <div class="absolute top-0 right-0 w-96 h-96 bg-orange-500/20 rounded-full blur-[100px] translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
+        <div class="absolute bottom-0 left-0 w-96 h-96 bg-blue-500/20 rounded-full blur-[100px] -translate-x-1/2 translate-y-1/2 pointer-events-none"></div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="text-center mb-16">
+                <span class="inline-block py-1 px-3 rounded-full bg-white/10 border border-white/20 backdrop-blur-md text-xs font-bold tracking-widest uppercase mb-4">
+                    @iunco.juridico
+                </span>
+                <h2 class="text-3xl md:text-5xl font-serif font-bold mb-6">
+                    El derecho explicado <br> 
+                    <span class="text-transparent bg-clip-text bg-linear-to-r from-orange-300 to-fuchsia-300">en tu idioma.</span>
+                </h2>
+                <p class="text-violet-200 text-lg max-w-2xl mx-auto">
+                    Más de <strong>17.000 personas</strong> se informan con nosotras día a día. Seguinos para conocer tus derechos de forma simple y rápida.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                
+                <a href="https://instagram.com" target="_blank" class="group relative aspect-4/5 bg-black rounded-2xl overflow-hidden shadow-2xl border border-white/10 hover:-translate-y-2 transition-transform duration-500">
+                    <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity" alt="Post Instagram">
+                    <div class="absolute inset-0 flex flex-col justify-end p-6 bg-linear-to-t from-black/90 to-transparent">
+                        <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform text-violet-600">
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                        <p class="font-bold text-white text-lg leading-tight mb-2">¿Me pueden despedir si estoy enfermo?</p>
+                        <p class="text-xs text-gray-400 uppercase tracking-wider">Ver Reel &rarr;</p>
+                    </div>
+                </a>
+
+                <a href="https://instagram.com" target="_blank" class="group relative aspect-4/5 bg-black rounded-2xl overflow-hidden shadow-2xl border border-white/10 hover:-translate-y-2 transition-transform duration-500">
+                    <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity" alt="Post Instagram">
+                    <div class="absolute inset-0 flex flex-col justify-end p-6 bg-linear-to-t from-black/90 to-transparent">
+                         <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform text-violet-600">
+                             <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                        <p class="font-bold text-white text-lg leading-tight mb-2">Nueva Moratoria: Claves para jubilarte</p>
+                        <p class="text-xs text-gray-400 uppercase tracking-wider">Ver Reel &rarr;</p>
+                    </div>
+                </a>
+
+                <a href="https://instagram.com" target="_blank" class="group relative aspect-4/5 bg-black rounded-2xl overflow-hidden shadow-2xl border border-white/10 hover:-translate-y-2 transition-transform duration-500">
+                    <img src="https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity" alt="Post Instagram">
+                    <div class="absolute inset-0 flex flex-col justify-end p-6 bg-linear-to-t from-black/90 to-transparent">
+                         <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform text-violet-600">
+                             <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                        <p class="font-bold text-white text-lg leading-tight mb-2">Accidentes In Itinere: ¿Qué cubre la ART?</p>
+                        <p class="text-xs text-gray-400 uppercase tracking-wider">Ver Reel &rarr;</p>
+                    </div>
+                </a>
+
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="https://instagram.com" target="_blank" class="inline-flex items-center gap-2 text-white/80 hover:text-white transition-colors font-bold uppercase text-xs tracking-widest border-b border-white/30 hover:border-white pb-1">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    Ver perfil completo en Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-white border-y border-slate-100">
+        <div class="container mx-auto px-6 max-w-3xl">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-serif text-slate-900 font-bold mb-4">Dudas Frecuentes</h2>
+                <p class="text-slate-500">Respuestas rápidas para que sepas cómo trabajamos.</p>
+            </div>
+            
+            <div class="space-y-4 bg-white border border-slate-200 rounded-2xl p-2 md:p-8 shadow-sm">
+                <FAQItem 
+                    title="¿Cobran la primera consulta?" 
+                    answer="Para reclamos laborales (despidos/ART) y accidentes de tránsito, la evaluación de viabilidad es sin cargo. En temas civiles y previsionales, el valor de la consulta se bonifica 100% si iniciamos el trámite con el estudio."
+                />
+
+                <FAQItem 
+                    title="¿Cómo se pagan los honorarios?" 
+                    answer="Trabajamos mayormente bajo la modalidad 'a resultado' (Pacto de Cuota Litis). Esto significa que usted no paga adelantos; nuestros honorarios son un porcentaje de lo que usted cobre al ganar el caso."
+                />
+
+                <FAQItem 
+                    title="¿Puedo hacer la consulta desde mi casa?" 
+                    answer="¡Sí! Somos un estudio digital y moderno. Realizamos videollamadas y gestionamos gran parte del trámite vía WhatsApp y mail para que no pierda tiempo viajando hasta Tribunales."
+                />
+                
+                <FAQItem 
+                    title="¿Qué documentación necesito para empezar?" 
+                    answer="Depende del caso, pero generalmente solo su DNI y alguna prueba básica (telegramas, recibos de sueldo, historia clínica). En la primera entrevista le daremos la lista exacta para armar la carpeta."
+                />
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-brand-dark text-white py-12 text-center border-t-4 border-brand-accent">
+        <div class="container mx-auto px-6">
+            <h2 class="font-serif text-2xl mb-2">Iunco Jurídico</h2>
+            <p class="text-white/60 text-sm mb-8">Excelencia legal con respaldo de comunidad.</p>
+            <a href="https://wa.me/54911XXXXXXXX" class="inline-block bg-brand-accent text-white px-8 py-3 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-white hover:text-brand-dark transition-all shadow-lg">
+                Contactar Ahora
+            </a>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/54911XXXXXXXX?text=Hola%20Dra.%20Iunco,%20quisiera%20hacer%20una%20consulta." 
+       class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white w-14 h-14 rounded-full shadow-2xl flex items-center justify-center hover:bg-[#20ba5a] transition-all transform hover:scale-110 hover:-translate-y-1">
+        <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+    </a>
+
+</Layout>
